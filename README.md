@@ -10,19 +10,4 @@ This paper presents a methodology based on the spectral decomposition of Hermiti
 
 ``pip install numpy scipy matplotlib pickle``
 
-If latex is not available, disable it:
-
-``
-mpl.rcParams.update({
-    "text.usetex": True,
-    "font.family": "serif",
-    "font.serif": ["Computer Modern"],
-    "axes.labelsize": 14,
-    "axes.titlesize": 14,
-    "legend.fontsize": 10,
-    "xtick.labelsize": 12,
-    "ytick.labelsize": 12,
-    "figure.dpi": 150,
-    "savefig.bbox": "tight",
-})
-``
+Also install LaTeX to visualize the graphs, otherwise disable it with ``plt.rcParams['text.usetex'] = False``.
